@@ -7,14 +7,17 @@ server.py: The server script that listens for incoming client connections.
 client.py: The client script that connects to the server and sends the word to be searched.
 search.py: The search script that performs the pattern search in the text file.
 data.txt: The text file in which the word will be searched.
+
 How It Works
 Server: The server script (server.py) runs and waits for client connections.
 Client: The client script (client.py) connects to the server and sends the word to be searched.
 Search: The server receives the word and invokes the search script (search.py) to search for the word in data.txt.
-Output: The search script returns the result to the server, which then sends it back to the client.
+Output: The search script returns the result to the server, which then sends it back to the client.]
+
 Getting Started
 Prerequisites
 Python 3.x installed on your machine.
+
 Running the Project
 Start the Server:
 python server.py
